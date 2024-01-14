@@ -1,10 +1,9 @@
 --[[
     WIP!
 
-    Saves path and position of playing of the media when mpv closes to a txt file
+    Saves path and position of media when mpv closes
     
-    If mpv opens with no media queued up it will take that file to then 
-    resume the last played media
+    If mpv opens with no media queued up it will then resume the last played media
 --]]
 
 function on_unload()
